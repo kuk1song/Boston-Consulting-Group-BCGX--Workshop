@@ -5,27 +5,30 @@
 Clean Python installed on your local machine (version 3.11+ is recommended)
 
 ## Create and Activate Virtual Environment
+
 Open the terminal on the project folder and create a new python environment:
 
-   - On Windows:
+- On Windows:
 
-     ```sh
-     $ python -m venv .venv
-     $ .\.venv\Scripts\activate
-     ```
-   - On macOS/Linux:
+  ```sh
+  $ python -m venv .venv
+  $ .\.venv\Scripts\activate
+  ```
 
-     ```sh
-     $ python3 -m venv venv
-     $ source .venv/bin/activate
-     ```
+- On macOS/Linux:
+
+  ```sh
+  $ python3 -m venv venv
+  $ source .venv/bin/activate
+  ```
 
 ## Install Dependencies
+
 With the virtual environment activated, install the required dependencies:
-   
+
 ```sh
    $ pip install -r requirements.txt
-   ```
+```
 
 ## Setup Hugging Face
 
@@ -40,8 +43,8 @@ Once everything is finalized make a test to check that everything is running:
 
 - https://ui.endpoints.huggingface.co/{user}/endpoints (replace {user} with your username)
 
-### Contacts
+<!-- ### Contacts
 - Eleonora Varde (Lead Data Scientist): varde.eleonora@bcg.com
 - Fabrizio Senia (Lead Data Scientist): senia.fabrizio@bcg.com
 - Marta Ronconi (Data Scientist): ronconi.marta@bcg.com
-- Andrea Biscontini (Data Scientist): biscontini.andrea@bcg.com
+- Andrea Biscontini (Data Scientist): biscontini.andrea@bcg.com -->
