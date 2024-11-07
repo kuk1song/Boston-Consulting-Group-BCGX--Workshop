@@ -1,0 +1,15 @@
+langchain
+langchain-core
+langchain-huggingface
+langchain-community
+langchain-text-splitters
+huggingface-hub
+beautifulsoup4
+
+openpyxl
+
+pandas
+numpy
+matplotlib
+scikit-learn
+shap
